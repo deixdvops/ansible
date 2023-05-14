@@ -1,0 +1,715 @@
+2023-05-01 15:39:44,987 p=23684 u=vagrant n=ansible | 192.168.43.11 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).", 
+    "unreachable": true
+}
+2023-05-01 15:41:29,740 p=23703 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: dbservers
+
+2023-05-01 15:41:29,740 p=23703 u=vagrant n=ansible | [WARNING]: No hosts matched, nothing to do
+
+2023-05-01 15:42:04,678 p=23712 u=vagrant n=ansible | 192.168.43.11 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).", 
+    "unreachable": true
+}
+2023-05-01 15:42:04,699 p=23712 u=vagrant n=ansible | 192.168.43.13 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '192.168.43.13' (ECDSA) to the list of known hosts.\r\nPermission denied (publickey,password).", 
+    "unreachable": true
+}
+2023-05-01 15:45:17,896 p=23730 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with auto plugin:
+no root 'plugin' key found, '/home/vagrant/dev-inventory.yml' is not a valid
+YAML inventory plugin config file
+
+2023-05-01 15:45:17,896 p=23730 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with yaml plugin:
+YAML inventory has invalid structure, it should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2023-05-01 15:45:17,897 p=23730 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with ini plugin:
+/home/vagrant/dev-inventory.yml:1: Expected key=value host variable assignment,
+got: 192.168.43.13
+
+2023-05-01 15:45:17,897 p=23730 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 15:45:17,897 p=23730 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 15:45:17,898 p=23730 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 15:45:17,898 p=23730 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: db1
+
+2023-05-01 15:48:17,238 p=23742 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with auto plugin:
+no root 'plugin' key found, '/home/vagrant/dev-inventory.yml' is not a valid
+YAML inventory plugin config file
+
+2023-05-01 15:48:17,239 p=23742 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with yaml plugin:
+YAML inventory has invalid structure, it should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2023-05-01 15:48:17,239 p=23742 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with ini plugin:
+/home/vagrant/dev-inventory.yml:1: Expected key=value host variable assignment,
+got: 192.168.43.13
+
+2023-05-01 15:48:17,239 p=23742 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 15:48:17,239 p=23742 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 15:48:17,240 p=23742 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 15:48:17,240 p=23742 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: web1
+
+2023-05-01 15:48:29,592 p=23751 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with auto plugin:
+no root 'plugin' key found, '/home/vagrant/dev-inventory.yml' is not a valid
+YAML inventory plugin config file
+
+2023-05-01 15:48:29,592 p=23751 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with yaml plugin:
+YAML inventory has invalid structure, it should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2023-05-01 15:48:29,592 p=23751 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with ini plugin:
+/home/vagrant/dev-inventory.yml:1: Expected key=value host variable assignment,
+got: 192.168.43.13
+
+2023-05-01 15:48:29,592 p=23751 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 15:48:29,593 p=23751 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 15:48:29,594 p=23751 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 17:17:09,982 p=23886 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with auto plugin:
+no root 'plugin' key found, '/home/vagrant/dev-inventory.yml' is not a valid
+YAML inventory plugin config file
+
+2023-05-01 17:17:09,983 p=23886 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with yaml plugin:
+YAML inventory has invalid structure, it should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2023-05-01 17:17:09,983 p=23886 u=vagrant n=ansible | [WARNING]:  * Failed to parse /home/vagrant/dev-inventory.yml with ini plugin:
+/home/vagrant/dev-inventory.yml:1: Expected key=value host variable assignment,
+got: 192.168.43.13
+
+2023-05-01 17:17:09,984 p=23886 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 17:17:09,984 p=23886 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 17:17:09,985 p=23886 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 17:23:14,744 p=23903 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 17:23:14,744 p=23903 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 17:23:14,744 p=23903 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 17:23:14,745 p=23903 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: app1
+
+2023-05-01 17:23:57,228 p=23913 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 17:23:57,229 p=23913 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 17:23:57,229 p=23913 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 17:23:57,229 p=23913 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: app1
+
+2023-05-01 17:24:01,440 p=23922 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 17:24:01,441 p=23922 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 17:24:01,441 p=23922 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 17:25:37,589 p=23932 u=vagrant n=ansible | [WARNING]: Unable to parse /home/vagrant/dev-inventory.yml as an inventory
+source
+
+2023-05-01 17:25:37,589 p=23932 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-01 17:25:37,589 p=23932 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-01 17:25:37,590 p=23932 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: servers
+
+2023-05-01 17:31:48,889 p=23945 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: servers
+
+2023-05-01 17:31:48,889 p=23945 u=vagrant n=ansible | [WARNING]: No hosts matched, nothing to do
+
+2023-05-01 17:32:01,944 p=23954 u=vagrant n=ansible | 192.168.43.13 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-01 17:32:01,966 p=23954 u=vagrant n=ansible | 192.168.43.11 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-08 12:59:05,919 p=2958 u=vagrant n=ansible | 192.168.43.13 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-08 12:59:05,955 p=2958 u=vagrant n=ansible | 192.168.43.11 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-08 12:59:59,535 p=2997 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+Mon May  8 13:00:41 UTC 2023
+
+2023-05-08 12:59:59,586 p=2997 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+Mon May  8 13:00:41 UTC 2023
+
+2023-05-08 13:00:40,206 p=3030 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+2
+
+2023-05-08 13:00:40,243 p=3030 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+2
+
+2023-05-08 13:03:29,415 p=3082 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:            486         103         276           4         107         366
+Swap:          1023           0        1023
+
+2023-05-08 13:03:29,417 p=3082 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:            486         102         276           4         107         366
+Swap:          1023           0        1023
+
+2023-05-08 13:04:04,871 p=3121 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:            486         103         276           4         107         366
+Swap:          1023           0        1023
+
+2023-05-08 13:04:04,909 p=3121 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:            486         103         276           4         107         366
+Swap:          1023           0        1023
+
+2023-05-08 13:04:34,883 p=3155 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+Mon May  8 13:05:01 UTC 2023
+
+2023-05-08 13:04:34,938 p=3155 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+Mon May  8 13:05:01 UTC 2023
+
+2023-05-08 13:04:38,575 p=3188 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+Mon May  8 13:05:04 UTC 2023
+
+2023-05-08 13:04:38,636 p=3188 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+Mon May  8 13:05:04 UTC 2023
+
+2023-05-08 13:04:41,540 p=3221 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+Mon May  8 13:05:07 UTC 2023
+
+2023-05-08 13:04:41,574 p=3221 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+Mon May  8 13:05:07 UTC 2023
+
+2023-05-08 13:08:49,979 p=3256 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: app
+
+2023-05-08 13:08:49,979 p=3256 u=vagrant n=ansible | [WARNING]: No hosts matched, nothing to do
+
+2023-05-08 13:09:02,936 p=3289 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: atlanta
+
+2023-05-08 13:09:02,937 p=3289 u=vagrant n=ansible | [WARNING]: No hosts matched, nothing to do
+
+2023-05-08 13:09:53,582 p=3301 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+Mon May  8 13:09:55 UTC 2023
+
+2023-05-08 13:14:01,864 p=3331 u=vagrant n=ansible | 192.168.43.11 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).", 
+    "unreachable": true
+}
+2023-05-08 13:14:03,050 p=3331 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+Mon May  8 13:14:02 UTC 2023
+
+2023-05-08 13:16:42,733 p=3361 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+Mon May  8 13:16:42 UTC 2023
+
+2023-05-08 13:16:42,784 p=3361 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+Mon May  8 13:16:42 UTC 2023
+
+2023-05-08 13:16:59,321 p=3401 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+Mon May  8 13:16:59 UTC 2023
+
+2023-05-08 13:16:59,349 p=3401 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+Mon May  8 13:16:59 UTC 2023
+
+2023-05-08 13:32:00,848 p=3442 u=root n=ansible | 192.168.43.11 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).", 
+    "unreachable": true
+}
+2023-05-08 13:32:34,083 p=3455 u=vagrant n=ansible | 192.168.43.11 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "comment": "", 
+    "create_home": true, 
+    "group": 1002, 
+    "home": "/home/serge", 
+    "name": "serge", 
+    "shell": "/bin/bash", 
+    "state": "present", 
+    "system": false, 
+    "uid": 1002
+}
+2023-05-08 13:34:02,559 p=3479 u=vagrant n=ansible | 192.168.43.11 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "append": false, 
+    "changed": false, 
+    "comment": "", 
+    "group": 1002, 
+    "home": "/home/serge", 
+    "move_home": false, 
+    "name": "serge", 
+    "shell": "/bin/bash", 
+    "state": "present", 
+    "uid": 1002
+}
+2023-05-08 13:34:02,618 p=3479 u=vagrant n=ansible | 192.168.43.13 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "comment": "", 
+    "create_home": true, 
+    "group": 1002, 
+    "home": "/home/serge", 
+    "name": "serge", 
+    "shell": "/bin/bash", 
+    "state": "present", 
+    "system": false, 
+    "uid": 1002
+}
+2023-05-08 14:18:27,622 p=3542 u=vagrant n=ansible | 192.168.43.11 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "comment": "", 
+    "create_home": true, 
+    "group": 1003, 
+    "home": "/home/ansible", 
+    "name": "ansible", 
+    "shell": "/bin/bash", 
+    "state": "present", 
+    "system": false, 
+    "uid": 1003
+}
+2023-05-08 14:18:27,624 p=3542 u=vagrant n=ansible | 192.168.43.13 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "comment": "", 
+    "create_home": true, 
+    "group": 1003, 
+    "home": "/home/ansible", 
+    "name": "ansible", 
+    "shell": "/bin/bash", 
+    "state": "present", 
+    "system": false, 
+    "uid": 1003
+}
+2023-05-08 14:18:31,667 p=3582 u=vagrant n=ansible | 192.168.43.13 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "append": false, 
+    "changed": false, 
+    "comment": "", 
+    "group": 1003, 
+    "home": "/home/ansible", 
+    "move_home": false, 
+    "name": "ansible", 
+    "shell": "/bin/bash", 
+    "state": "present", 
+    "uid": 1003
+}
+2023-05-08 14:18:31,686 p=3582 u=vagrant n=ansible | 192.168.43.11 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "append": false, 
+    "changed": false, 
+    "comment": "", 
+    "group": 1003, 
+    "home": "/home/ansible", 
+    "move_home": false, 
+    "name": "ansible", 
+    "shell": "/bin/bash", 
+    "state": "present", 
+    "uid": 1003
+}
+2023-05-08 14:20:15,871 p=3620 u=vagrant n=ansible | [WARNING]: Consider using the file module with state=touch rather than running
+'touch'.  If you need to use command because file is insufficient you can add
+'warn: false' to this command task or set 'command_warnings=False' in
+ansible.cfg to get rid of this message.
+
+2023-05-08 14:20:15,872 p=3620 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+
+
+2023-05-08 14:20:15,902 p=3620 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+
+
+2023-05-08 14:20:46,451 p=3664 u=vagrant n=ansible | ERROR! this task 'touch' has extra params, which is only allowed in the following modules: ansible.builtin.raw, ansible.legacy.add_host, ansible.builtin.meta, ansible.legacy.include, ansible.legacy.import_role, script, ansible.legacy.raw, group_by, ansible.builtin.shell, ansible.legacy.win_command, include, shell, include_vars, ansible.builtin.import_tasks, add_host, ansible.builtin.include_vars, ansible.legacy.include_role, ansible.builtin.include_role, ansible.legacy.include_vars, ansible.legacy.win_shell, ansible.legacy.group_by, import_tasks, ansible.builtin.set_fact, ansible.builtin.command, ansible.builtin.include_tasks, include_tasks, ansible.builtin.script, ansible.builtin.include, raw, meta, ansible.legacy.set_fact, ansible.builtin.add_host, ansible.legacy.script, ansible.legacy.import_tasks, win_command, ansible.builtin.win_shell, include_role, win_shell, set_fact, ansible.legacy.shell, ansible.legacy.command, import_role, ansible.legacy.meta, ansible.builtin.import_role, ansible.legacy.include_tasks, ansible.builtin.group_by, ansible.builtin.win_command, command
+2023-05-08 14:21:06,616 p=3669 u=vagrant n=ansible | [WARNING]: Consider using the file module with state=touch rather than running
+'touch'.  If you need to use command because file is insufficient you can add
+'warn: false' to this command task or set 'command_warnings=False' in
+ansible.cfg to get rid of this message.
+
+2023-05-08 14:21:06,617 p=3669 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+
+
+2023-05-08 14:21:06,641 p=3669 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+
+
+2023-05-08 14:21:16,905 p=3702 u=vagrant n=ansible | [WARNING]: Consider using the file module with state=touch rather than running
+'touch'.  If you need to use command because file is insufficient you can add
+'warn: false' to this command task or set 'command_warnings=False' in
+ansible.cfg to get rid of this message.
+
+2023-05-08 14:21:16,905 p=3702 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+
+
+2023-05-08 14:21:16,924 p=3702 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+
+
+2023-05-08 14:31:56,651 p=3743 u=vagrant n=ansible | 192.168.43.13 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "dest": "/tmp/food", 
+    "gid": 1000, 
+    "group": "vagrant", 
+    "mode": "0664", 
+    "owner": "vagrant", 
+    "secontext": "unconfined_u:object_r:user_tmp_t:s0", 
+    "size": 0, 
+    "state": "file", 
+    "uid": 1000
+}
+2023-05-08 14:31:56,667 p=3743 u=vagrant n=ansible | 192.168.43.11 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "dest": "/tmp/food", 
+    "gid": 1000, 
+    "group": "vagrant", 
+    "mode": "0664", 
+    "owner": "vagrant", 
+    "secontext": "unconfined_u:object_r:user_tmp_t:s0", 
+    "size": 0, 
+    "state": "file", 
+    "uid": 1000
+}
+2023-05-08 14:33:27,225 p=3782 u=vagrant n=ansible | 192.168.43.13 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "gid": 1000, 
+    "group": "vagrant", 
+    "mode": "0775", 
+    "owner": "vagrant", 
+    "path": "/tmp/food-dir", 
+    "secontext": "unconfined_u:object_r:user_tmp_t:s0", 
+    "size": 6, 
+    "state": "directory", 
+    "uid": 1000
+}
+2023-05-08 14:33:27,238 p=3782 u=vagrant n=ansible | 192.168.43.11 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": true, 
+    "gid": 1000, 
+    "group": "vagrant", 
+    "mode": "0775", 
+    "owner": "vagrant", 
+    "path": "/tmp/food-dir", 
+    "secontext": "unconfined_u:object_r:user_tmp_t:s0", 
+    "size": 6, 
+    "state": "directory", 
+    "uid": 1000
+}
+2023-05-08 14:35:17,520 p=3821 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+ansible.cfg
+ansible_command_payload_8Qmc_K
+ansiblefile
+food
+food-dir
+systemd-private-128fb47a531d4b22a99cdab7fcdb2a85-chronyd.service-vACBCf
+systemd-private-128fb47a531d4b22a99cdab7fcdb2a85-httpd.service-MrXbhf
+systemd-private-48ff699e9395484d9e99e9ab2817cf75-chronyd.service-QuDLZq
+systemd-private-e1282c9b5b9641e684d67a756cf9bc97-chronyd.service-ghShu8
+systemd-private-ec0a1d03521945348ad3504493c3554a-chronyd.service-uv59DH
+test
+
+2023-05-08 14:35:17,529 p=3821 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+ansible_command_payload_ZkbKBW
+ansiblefile
+food
+food-dir
+systemd-private-26f11697620a419884b4e849ad41ac07-chronyd.service-gGQ4VV
+systemd-private-26f11697620a419884b4e849ad41ac07-httpd.service-tfrSg8
+systemd-private-32d34771240f460eb21bf03c8be3d96a-chronyd.service-WgMHFo
+systemd-private-d81a9064007e4d4da8579029e2ce9a4d-chronyd.service-cXTmfX
+systemd-private-f50465b95d5f496da01fafc7b1bca120-chronyd.service-GU3pHb
+test
+
+2023-05-08 15:09:54,338 p=3881 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+ansible.cfg
+ansible_command_payload_vh9Anb
+ansiblefile
+food
+food-dir
+systemd-private-128fb47a531d4b22a99cdab7fcdb2a85-chronyd.service-vACBCf
+systemd-private-128fb47a531d4b22a99cdab7fcdb2a85-httpd.service-MrXbhf
+systemd-private-48ff699e9395484d9e99e9ab2817cf75-chronyd.service-QuDLZq
+systemd-private-e1282c9b5b9641e684d67a756cf9bc97-chronyd.service-ghShu8
+systemd-private-ec0a1d03521945348ad3504493c3554a-chronyd.service-uv59DH
+test
+
+2023-05-08 15:09:54,365 p=3881 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+ansible_command_payload_JX7RQH
+ansiblefile
+food
+food-dir
+systemd-private-26f11697620a419884b4e849ad41ac07-chronyd.service-gGQ4VV
+systemd-private-26f11697620a419884b4e849ad41ac07-httpd.service-tfrSg8
+systemd-private-32d34771240f460eb21bf03c8be3d96a-chronyd.service-WgMHFo
+systemd-private-d81a9064007e4d4da8579029e2ce9a4d-chronyd.service-cXTmfX
+systemd-private-f50465b95d5f496da01fafc7b1bca120-chronyd.service-GU3pHb
+test
+
+2023-05-08 15:20:11,294 p=3933 u=vagrant n=ansible | 192.168.43.13 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-08 15:20:11,322 p=3933 u=vagrant n=ansible | 192.168.43.11 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-08 16:07:44,305 p=4021 u=vagrant n=ansible | 192.168.43.13 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-08 16:07:44,308 p=4021 u=vagrant n=ansible | 192.168.43.11 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-08 16:08:46,590 p=4061 u=vagrant n=ansible | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead
+
+The error appears to be in '/home/vagrant/main.yml': line 2, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+hosts: all
+^ here
+
+2023-05-08 16:13:32,259 p=4073 u=vagrant n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/vagrant/main.yml': line 28, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   -  name: start apache
+     service:
+     ^ here
+
+2023-05-08 16:15:32,482 p=4082 u=vagrant n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/vagrant/main.yml': line 30, column 13, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      name: httpd
+       state: started
+            ^ here
+
+2023-05-08 16:16:18,720 p=4090 u=vagrant n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/vagrant/main.yml': line 30, column 13, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      name: httpd
+       state: started
+            ^ here
+
+2023-05-08 16:19:55,924 p=4099 u=vagrant n=ansible | ERROR! the playbook: syntax could not be found
+2023-05-08 16:20:12,683 p=4104 u=vagrant n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/vagrant/main.yml': line 30, column 13, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      name: httpd
+       state: started
+            ^ here
+
+2023-05-08 16:24:49,372 p=4113 u=vagrant n=ansible | playbook: main.yml
+2023-05-08 16:25:13,319 p=4121 u=vagrant n=ansible | PLAY [all] *********************************************************************
+2023-05-08 16:25:13,334 p=4121 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************
+2023-05-08 16:25:15,063 p=4121 u=vagrant n=ansible | ok: [192.168.43.13]
+2023-05-08 16:25:15,077 p=4121 u=vagrant n=ansible | ok: [192.168.43.11]
+2023-05-08 16:25:15,092 p=4121 u=vagrant n=ansible | TASK [Create user] *************************************************************
+2023-05-08 16:25:15,808 p=4121 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-08 16:25:15,814 p=4121 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-08 16:25:15,830 p=4121 u=vagrant n=ansible | TASK [Create file] *************************************************************
+2023-05-08 16:25:16,407 p=4121 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-08 16:25:16,414 p=4121 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-08 16:25:16,428 p=4121 u=vagrant n=ansible | TASK [Create directory] ********************************************************
+2023-05-08 16:25:16,875 p=4121 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-08 16:25:16,888 p=4121 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-08 16:25:16,900 p=4121 u=vagrant n=ansible | TASK [Create group] ************************************************************
+2023-05-08 16:25:17,452 p=4121 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-08 16:25:17,460 p=4121 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-08 16:25:17,476 p=4121 u=vagrant n=ansible | TASK [install apache] **********************************************************
+2023-05-08 16:25:51,882 p=4121 u=vagrant n=ansible | ok: [192.168.43.13]
+2023-05-08 16:25:56,531 p=4121 u=vagrant n=ansible | ok: [192.168.43.11]
+2023-05-08 16:25:56,548 p=4121 u=vagrant n=ansible | TASK [start apache] ************************************************************
+2023-05-08 16:25:58,402 p=4121 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-08 16:25:58,514 p=4121 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-08 16:25:58,525 p=4121 u=vagrant n=ansible | TASK [download software] *******************************************************
+2023-05-08 16:26:05,748 p=4121 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-08 16:26:05,906 p=4121 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-08 16:26:05,910 p=4121 u=vagrant n=ansible | PLAY RECAP *********************************************************************
+2023-05-08 16:26:05,911 p=4121 u=vagrant n=ansible | 192.168.43.11              : ok=8    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-08 16:26:05,911 p=4121 u=vagrant n=ansible | 192.168.43.13              : ok=8    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-08 16:30:17,523 p=4286 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+ansi-dir
+apache-maven-3.9.1-bin.zip
+config
+directory_ansible
+VBoxGuestAdditions-6.1.32
+
+2023-05-08 16:30:18,562 p=4286 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+ansi-dir
+apache-maven-3.9.1-bin.zip
+config
+directory_ansible
+VBoxGuestAdditions-6.1.32
+
+2023-05-08 16:31:40,045 p=4326 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+● httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+   Active: active (running) since Mon 2023-05-08 16:25:58 UTC; 5min ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+ Main PID: 5467 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+   CGroup: /system.slice/httpd.service
+           ├─5467 /usr/sbin/httpd -DFOREGROUND
+           ├─5468 /usr/sbin/httpd -DFOREGROUND
+           ├─5469 /usr/sbin/httpd -DFOREGROUND
+           ├─5470 /usr/sbin/httpd -DFOREGROUND
+           ├─5471 /usr/sbin/httpd -DFOREGROUND
+           └─5472 /usr/sbin/httpd -DFOREGROUND
+
+May 08 16:25:58 database systemd[1]: Starting The Apache HTTP Server...
+May 08 16:25:58 database httpd[5467]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May 08 16:25:58 database systemd[1]: Started The Apache HTTP Server.
+
+2023-05-08 16:31:40,053 p=4326 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+● httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+   Active: active (running) since Mon 2023-05-08 16:25:58 UTC; 5min ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+ Main PID: 6309 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+   CGroup: /system.slice/httpd.service
+           ├─6309 /usr/sbin/httpd -DFOREGROUND
+           ├─6310 /usr/sbin/httpd -DFOREGROUND
+           ├─6311 /usr/sbin/httpd -DFOREGROUND
+           ├─6312 /usr/sbin/httpd -DFOREGROUND
+           ├─6313 /usr/sbin/httpd -DFOREGROUND
+           └─6314 /usr/sbin/httpd -DFOREGROUND
+
+May 08 16:25:58 webserver systemd[1]: Starting The Apache HTTP Server...
+May 08 16:25:58 webserver httpd[6309]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May 08 16:25:58 webserver systemd[1]: Started The Apache HTTP Server.
+
+2023-05-08 16:32:16,389 p=4365 u=vagrant n=ansible | 192.168.43.13 | CHANGED | rc=0 >>
+serge:x:1002:1002::/home/serge:/bin/bash
+ansible:x:1003:1003::/home/ansible:/bin/bash
+john:x:1004:0:Admin Smith:/home/john:/bin/bash
+
+2023-05-08 16:32:16,408 p=4365 u=vagrant n=ansible | 192.168.43.11 | CHANGED | rc=0 >>
+serge:x:1002:1002::/home/serge:/bin/bash
+ansible:x:1003:1003::/home/ansible:/bin/bash
+john:x:1004:0:Admin Smith:/home/john:/bin/bash
+
+2023-05-13 17:23:57,525 p=2876 u=vagrant n=ansible | 192.168.43.13 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2023-05-13 17:23:57,570 p=2876 u=vagrant n=ansible | 192.168.43.11 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}

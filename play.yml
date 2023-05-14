@@ -1,0 +1,45 @@
+---
+- hosts: all
+  become: yes
+  ignore_errors: yes
+  vars:
+   pkg_name: httpd
+   username: Serge 
+  tasks:
+  
+   
+   - name: Creating user
+     user:
+      name: "{{username}}"
+      comment: Boy Cyusa
+      shell: /bin/bash
+      uid: 101
+    # when: ansible_os_family== "Debian"
+   - name: Creating a file
+     file:
+      path: /tmp/test.txt
+      state: touch
+      mode: '0600'
+      
+   - name: Creting a directory
+     file:
+      path: /tmp/dir
+      state: directory
+      mode: '0700'
+   - name: install packages
+     yum:
+      name: "{{pkg_name}}"
+      state: present 
+   - name: starting the apache
+     apache2_module:
+      state: started
+   - name: install packages
+     package:   
+      name: "{{item}}"
+      state: present
+   with_items:
+        - finger
+        - wget
+        - java-8*
+     
+    

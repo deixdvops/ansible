@@ -1,0 +1,53 @@
+2023-05-02 01:06:05,295 p=24386 u=vagrant n=ansible | PLAY [servers] *****************************************************************
+2023-05-02 01:06:05,306 p=24386 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************
+2023-05-02 01:06:06,960 p=24386 u=vagrant n=ansible | ok: [192.168.43.13]
+2023-05-02 01:06:06,979 p=24386 u=vagrant n=ansible | ok: [192.168.43.11]
+2023-05-02 01:06:06,994 p=24386 u=vagrant n=ansible | TASK [Execute the Uptime command over Command module] **************************
+2023-05-02 01:06:07,606 p=24386 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-02 01:06:08,610 p=24386 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-02 01:06:08,621 p=24386 u=vagrant n=ansible | TASK [Execute the df command] **************************************************
+2023-05-02 01:06:09,141 p=24386 u=vagrant n=ansible | changed: [192.168.43.13]
+2023-05-02 01:06:09,159 p=24386 u=vagrant n=ansible | changed: [192.168.43.11]
+2023-05-02 01:06:09,175 p=24386 u=vagrant n=ansible | TASK [debug] *******************************************************************
+2023-05-02 01:06:09,224 p=24386 u=vagrant n=ansible | ok: [192.168.43.13] => {
+    "uptimeoutput.stdout_lines": [
+        " 01:06:07 up  3:35,  2 users,  load average: 0.00, 0.01, 0.05"
+    ]
+}
+2023-05-02 01:06:09,243 p=24386 u=vagrant n=ansible | ok: [192.168.43.11] => {
+    "uptimeoutput.stdout_lines": [
+        " 01:06:07 up  3:36,  2 users,  load average: 0.00, 0.01, 0.05"
+    ]
+}
+2023-05-02 01:06:09,254 p=24386 u=vagrant n=ansible | TASK [debug] *******************************************************************
+2023-05-02 01:06:09,296 p=24386 u=vagrant n=ansible | ok: [192.168.43.13] => {
+    "dfout.stdout_lines": [
+        "Filesystem               Size  Used Avail Use% Mounted on", 
+        "devtmpfs                 232M     0  232M   0% /dev", 
+        "tmpfs                    244M     0  244M   0% /dev/shm", 
+        "tmpfs                    244M  4.6M  239M   2% /run", 
+        "tmpfs                    244M     0  244M   0% /sys/fs/cgroup", 
+        "/dev/mapper/centos-root   50G  1.7G   49G   4% /", 
+        "/dev/sda1               1014M  168M  847M  17% /boot", 
+        "/dev/mapper/centos-home   28G   33M   28G   1% /home", 
+        "vagrant                  234G  197G   38G  84% /vagrant", 
+        "tmpfs                     49M     0   49M   0% /run/user/1000"
+    ]
+}
+2023-05-02 01:06:09,317 p=24386 u=vagrant n=ansible | ok: [192.168.43.11] => {
+    "dfout.stdout_lines": [
+        "Filesystem               Size  Used Avail Use% Mounted on", 
+        "devtmpfs                 232M     0  232M   0% /dev", 
+        "tmpfs                    244M     0  244M   0% /dev/shm", 
+        "tmpfs                    244M  4.6M  239M   2% /run", 
+        "tmpfs                    244M     0  244M   0% /sys/fs/cgroup", 
+        "/dev/mapper/centos-root   50G  1.7G   49G   4% /", 
+        "/dev/sda1               1014M  168M  847M  17% /boot", 
+        "/dev/mapper/centos-home   28G   33M   28G   1% /home", 
+        "vagrant                  234G  197G   38G  84% /vagrant", 
+        "tmpfs                     49M     0   49M   0% /run/user/1000"
+    ]
+}
+2023-05-02 01:06:09,321 p=24386 u=vagrant n=ansible | PLAY RECAP *********************************************************************
+2023-05-02 01:06:09,322 p=24386 u=vagrant n=ansible | 192.168.43.11              : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-02 01:06:09,323 p=24386 u=vagrant n=ansible | 192.168.43.13              : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
