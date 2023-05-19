@@ -1,0 +1,45 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: install apache package and php
+    tags: apache, php , CentOs
+    dnf:
+      name: 
+        - httpd
+        - php
+        - docker
+      state: latest
+      update_cache: yes
+    #when: ansible_distribution == "CentOs" and ansible_distribution_version == "7.9"
+ 
+
+  - name: start service
+    tags: daemon
+    service :
+      name: httpd
+      enabled: true
+      state: started
+
+  - name: copy default html 
+    tags: http 
+    copy:
+      src: defautl_site.html
+      dest: /var/www/html/index.html
+      owner: root
+      group: root
+      mode: 0644
+
+  - name: restart http
+    tags: apache, httpd
+    service:
+       name: httpd
+       state: restarted
+
+  - name : create simone user
+    tags: always
+    user: 
+      name: simone
+      group: root
+      
+
